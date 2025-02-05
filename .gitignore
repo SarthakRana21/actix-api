@@ -1,1 +1,34 @@
-/target
+# Target directory (compiled output)
+target/
+
+# Cargo dependencies
+Cargo.lock
+
+# Rust debugging and profiling files
+*.rs.bk
+*.dSYM/
+*.profraw
+*.profdata
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.iml
+
+# MacOS and Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Binaries
+*.exe
+*.out
+*.o
+*.so
+*.a
+*.dylib
+*.rlib
+
+# Logs and temporary files
+*.log
+*.tmp
